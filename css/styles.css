@@ -2,6 +2,7 @@
 
 :root {
   --main-color: #f24738;
+  --main-color-dark: #cf3e31;
   --secondary-color: #ffa559;
   --black: #07080d;
   --white: #fff2ee;
@@ -28,20 +29,60 @@ p {
 ul {
   list-style: none;
 }
+section {
+  padding: 50px;
+}
+section h2 {
+  padding-bottom: 30px;
+}
+.btn-primary {
+  background-color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) !important;
+}
+.btn-primary:hover {
+  background-color: var(--main-color-dark) !important;
+  border-color: var(--main-color-dark) !important;
+}
 
 /* main */
 
 .hero {
-  background-image: url("../images/myBike.JPG");
-  background-size: auto;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../images/myBike.JPG");
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
-  justify-content: left;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 12%;
+  padding-top: 8%;
 }
-
-.col img {
+.hero-text {
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.hero-p {
+  padding-top: 10%;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.col-md-3 img {
   width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.col-md-3 {
+  padding: 0;
+  margin: 10px;
+  border-radius: 10px;
+}
+.product {
+  background-color: var(--white);
 }
 .guide img {
   max-height: 180px;
@@ -59,6 +100,8 @@ ul {
   background-color: #ffffff;
   padding: 10px 20px;
   border-bottom: 2px solid var(--main-color);
+  height: 70px;
+  width: 98.9vw;
 }
 .upper-nav img {
   width: 206px;
@@ -70,7 +113,7 @@ ul {
 }
 
 .upper-nav form input {
-  width: 600px;
+  width: 500px;
   padding: 10px 20px;
   border: 2px solid var(--main-color);
   border-radius: 4px 0px 0px 4px;
