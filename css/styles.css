@@ -169,6 +169,9 @@ section h2 {
   font-weight: normal;
   text-transform: uppercase;
 }
+.lower-nav ul li a.active {
+  font-weight: bold;
+}
 
 /*footer styles*/
 footer {
