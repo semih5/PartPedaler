@@ -59,19 +59,27 @@
         <div>
           <h1>MTB Chain</h1>
           <p>*compatible with your bike</p>
-          <button><i class="fa-solid fa-bookmark"></i></button>
-          <button><i class="fa-solid fa-share-nodes"></i></button>
+          <button type="button" class="btn btn-outline-primary">
+            <i class="fa-solid fa-bookmark"></i>
+          </button>
+          <button type="button" class="btn btn-outline-primary">
+            <i class="fa-solid fa-share-nodes"></i>
+          </button>
           <div>
             <label for="product">Select:</label>
-            <select id="product" name="product">
+            <select class="form-select" id="product" name="product">
               <option value="XA-231">XA-231</option>
               <option value="PartPedaler">PartPedaler</option>
             </select>
-            <button>-</button>
-            <span>1</span>
-            <button>+</button>
+            <div class="quantity-buttons">
+              <button type="button" class="btn btn-outline-primary">-</button>
+              <span>1</span>
+              <button type="button" class="btn btn-outline-primary">+</button>
+            </div>
           </div>
-          <button>ADD TO CART</button>
+          <button type="button" class="btn btn-primary btn-lg btn-block">
+            ADD TO CART
+          </button>
         </div>
       </section>
       <section>

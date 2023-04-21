@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --main-color: #f24738;
+  --main-color: rgba(242, 71, 56);
   --main-color-dark: #cf3e31;
-  --secondary-color: #ffa559;
+  --secondary-color: rgba(255, 165, 89);
   --black: #07080d;
   --white: #fff2ee;
 }
@@ -74,21 +74,23 @@ section h2 {
   padding-top: 10%;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-.col-md-3 img {
-  width: 100%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+
+.quantity-buttons {
+  background-color: rgba(255, 165, 89, 0.5);
 }
-.col-md-3 {
-  padding: 0;
-  margin: 10px;
-  border-radius: 10px;
-}
-.product {
+.guide .col {
   background-color: var(--white);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 .guide img {
   max-height: 180px;
+}
+
+.aboutUs-logo-icon {
+  opacity: 0.5;
+  width: 249px;
+  float: right;
 }
 
 /* nav styles */
