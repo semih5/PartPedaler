@@ -86,11 +86,56 @@ section h2 {
 .guide img {
   max-height: 180px;
 }
+/* mybike */
+.section-mybike {
+  padding: 60px 190px 60px 190px;
+}
+.table {
+  border-collapse: collapse;
+  padding-right: 50px;
+}
+th,
+td {
+  border-bottom: 1px solid black !important;
+  padding-right: 38px;
+  text-align: left;
+}
+.section-mybike img {
+  width: 380px;
+}
+.section-mybike {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.section-mybike img {
+  width: 100%;
+}
+.section-mybike button {
+  margin-top: 20px;
+}
 
+/*about us*/
+.aboutUs-head h1 {
+  padding-bottom: 30px;
+}
+.aboutUs-head {
+  padding-left: 100px;
+  padding-right: 190px;
+}
 .aboutUs-logo-icon {
   opacity: 0.5;
-  width: 249px;
+  width: 200px;
   float: right;
+  columns: 1;
+  padding-top: 80px;
+}
+.section-aboutus {
+  padding-left: 190px;
+  padding-right: 190px;
+}
+.vision {
+  columns: 2;
 }
 
 /* nav styles */
