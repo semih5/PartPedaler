@@ -53,8 +53,8 @@
       <section class="section-mybike">
         <h1>My Bike</h1>
         <div class="container">
-          <div class="row">
-            <div class="col">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
               <table class="table">
                 <tr>
                   <th>Type</th>
@@ -78,19 +78,24 @@
                 </tr>
               </table>
             </div>
-            <div class="col">
-              <img src="images/myBike.JPG" alt="bikePic" />
+            <div class="col-md-6 d-flex flex-column align-items-center">
+              <div class="col">
+                <img src="images/myBike.JPG" alt="bikePic" />
 
-              <button type="button" class="btn btn-primary btn-lg btn-block">
-                Edit Bike
-              </button>
-              <button type="button" class="btn btn-primary btn-lg btn-block">
-                Connect to Strava
-              </button>
+                <div class="d-flex justify-content-between">
+                  <button type="button" class="btn btn-primary btn-lg">
+                    Edit Bike
+                  </button>
+                  <button type="button" class="btn btn-secondary btn-lg">
+                    Connect to Strava
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
       <section class="section-mybike">
         <h2>Old Parts</h2>
         <table class="table">

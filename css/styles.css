@@ -4,6 +4,7 @@
   --main-color: rgba(242, 71, 56);
   --main-color-dark: #cf3e31;
   --secondary-color: rgba(255, 165, 89);
+  --secondary-color-dark: rgb(223, 144, 80);
   --black: #07080d;
   --white: #fff2ee;
 }
@@ -47,6 +48,15 @@ section h2 {
   background-color: var(--main-color-dark) !important;
   border-color: var(--main-color-dark) !important;
 }
+.btn-secondary {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) !important;
+}
+.btn-secondary:hover {
+  background-color: var(--secondary-color-dark) !important;
+  border-color: var(--secondary-color-dark) !important;
+}
 
 /* main */
 
@@ -74,6 +84,9 @@ section h2 {
   padding-top: 10%;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+.product-card-body {
+  background-color: var(--white);
+}
 
 .quantity-buttons {
   background-color: rgba(255, 165, 89, 0.5);
@@ -83,9 +96,17 @@ section h2 {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
-.guide img {
-  max-height: 180px;
+.card-body {
+  background-color: var(--white);
 }
+
+/* order succesful page */
+.section-orderSuccessful {
+  padding: 200px;
+  background-color: var(--white);
+  align-items: center;
+}
+
 /* mybike */
 .section-mybike {
   padding: 60px 190px 60px 190px;
@@ -101,18 +122,9 @@ td {
   text-align: left;
 }
 .section-mybike img {
-  width: 380px;
-}
-.section-mybike {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
-.section-mybike img {
-  width: 100%;
-}
-.section-mybike button {
-  margin-top: 20px;
+  width: 387px;
+  border-radius: 10px;
+  margin: 30px;
 }
 
 /*about us*/
@@ -151,7 +163,7 @@ td {
   padding: 10px 20px;
   border-bottom: 2px solid var(--main-color);
   height: 70px;
-  width: 98.9vw;
+  width: 100vw;
 }
 .upper-nav img {
   width: 206px;
