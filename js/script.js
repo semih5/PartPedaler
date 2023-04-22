@@ -8,3 +8,9 @@ const myBikeButton = document.getElementById("myBikeButton");
 myBikeButton.addEventListener("click", function () {
   window.location.href = "myBike.html";
 });
+
+const goHomeButton = document.getElementById("goHomeButton");
+
+goHomeButton.addEventListener("click", function () {
+  window.location.href = "index.html";
+});
