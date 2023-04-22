@@ -156,6 +156,23 @@ td {
 .quantity-buttons button:hover {
   color: white;
 }
+.product {
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
+.product-price {
+  padding-bottom: 20px;
+}
+/* Cart */
+.cart {
+  padding: 90px;
+}
+.cart section {
+  padding: 50px;
+}
+.cart-image {
+  height: 400px;
+}
 
 /*about us*/
 .aboutUs-head h1 {
