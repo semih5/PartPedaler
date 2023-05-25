@@ -76,6 +76,7 @@ section h2 {
   align-items: flex-start;
   padding-left: 12%;
   padding-top: 8%;
+  text-align: left;
 }
 .hero-text {
   color: #ffffff;
@@ -100,9 +101,21 @@ section h2 {
 
 /* order succesful page */
 .section-orderSuccessful {
-  padding: 200px;
+  margin: 150px;
+  padding: 50px;
   background-color: var(--white);
   align-items: center;
+  text-align: center;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 /* mybike */
@@ -254,7 +267,7 @@ td {
   text-align: center;
   background-color: #eeeeee;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .lower-nav ul {
